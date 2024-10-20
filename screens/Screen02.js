@@ -29,7 +29,7 @@ const Screen02 = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get("https://6459bfa395624ceb21eebb61.mockapi.io/Tuan7/v1/products");
+        const response = await axios.get("https://6459b1e995624ceb21edb04a.mockapi.io/api/tranchibao/products");
         setProduct(response.data);
       } catch (error) {
         console.error(error);
